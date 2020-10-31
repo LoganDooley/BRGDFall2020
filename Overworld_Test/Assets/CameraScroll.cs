@@ -6,7 +6,7 @@ public class CameraScroll : MonoBehaviour
 {
     private bool transition;
     public float speed = 1f;
-    private float lerp = 0, duration = 1;
+    private float lerp = 0, duration = 1, time = 0;
     private Vector3 homePos, selectPos;
     private int mode = 1;
     private void Start()
@@ -22,23 +22,30 @@ public class CameraScroll : MonoBehaviour
             print("space was hit");
             transition = true;
             mode = mode * -1;
+            time = 0;
         }
         if (transition & mode == -1)
         {
-            lerp += speed*Time.deltaTime / (duration* (0.2f+Mathf.Abs(lerp - 0.5f)));
+            time += Time.deltaTime/2;
+            lerp = (6f/Mathf.Pow(duration, 3))*((duration/2)*Mathf.Pow(time, 2)-(1f/3f)*Mathf.Pow(time, 3));
+            print(lerp);
             transform.position = Vector3.Lerp(homePos, selectPos, lerp);
-            if(transform.position == selectPos)
+            if(lerp >= 1f-0.01f && lerp <= 1f+0.01f)
             {
+                transform.position = selectPos;
                 transition = false;
                 lerp = 0;
             }
         }
         if(transition & mode == 1)
         {
-            lerp += speed *Time.deltaTime / (duration* (0.2f+Mathf.Abs(lerp - 0.5f)));
+            time += Time.deltaTime/2;
+            lerp = (6f / Mathf.Pow(duration, 3)) * ((duration / 2) * Mathf.Pow(time, 2) - (1f / 3f) * Mathf.Pow(time, 3));
+            print(lerp);
             transform.position = Vector3.Lerp(selectPos, homePos, lerp);
-            if (transform.position == homePos)
+            if (lerp >= 1f - 0.01f && lerp <= 1f + 0.01f)
             {
+                transform.position = homePos;
                 transition = false;
                 lerp = 0;
             }
