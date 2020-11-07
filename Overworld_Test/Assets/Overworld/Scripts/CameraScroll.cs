@@ -17,10 +17,13 @@ public class CameraScroll : MonoBehaviour
     }
     public void switchScreen()
     {
-        print("screen was switched by button click");
-        transition = true;
-        mode = mode * -1;
-        time = 0;
+        if(transition == false)
+        {
+            print("screen was switched by button click");
+            transition = true;
+            mode = mode * -1;
+            time = 0;
+        }
     }
 
     void FixedUpdate()
