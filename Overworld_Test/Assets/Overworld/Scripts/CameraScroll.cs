@@ -15,15 +15,16 @@ public class CameraScroll : MonoBehaviour
         homePos = transform.position;
         selectPos = transform.position - new Vector3(0, 2 * transform.position.y, 0);
     }
+    public void switchScreen()
+    {
+        print("screen was switched by button click");
+        transition = true;
+        mode = mode * -1;
+        time = 0;
+    }
+
     void FixedUpdate()
     {
-        if (Input.GetKeyDown("space") && transition == false)
-        {
-            print("space was hit");
-            transition = true;
-            mode = mode * -1;
-            time = 0;
-        }
         if (transition & mode == -1)
         {
             time += Time.deltaTime/2;
