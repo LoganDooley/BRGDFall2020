@@ -19,7 +19,6 @@ public class CameraScroll : MonoBehaviour
     {
         if(transition == false)
         {
-            print("screen was switched by button click");
             transition = true;
             mode = mode * -1;
             time = 0;
@@ -32,7 +31,6 @@ public class CameraScroll : MonoBehaviour
         {
             time += Time.deltaTime/2;
             lerp = (6f/Mathf.Pow(duration, 3))*((duration/2)*Mathf.Pow(time, 2)-(1f/3f)*Mathf.Pow(time, 3));
-            print(lerp);
             transform.position = Vector3.Lerp(homePos, selectPos, lerp);
             if(lerp >= 1f-0.01f && lerp <= 1f+0.01f)
             {
@@ -45,7 +43,6 @@ public class CameraScroll : MonoBehaviour
         {
             time += Time.deltaTime/2;
             lerp = (6f / Mathf.Pow(duration, 3)) * ((duration / 2) * Mathf.Pow(time, 2) - (1f / 3f) * Mathf.Pow(time, 3));
-            print(lerp);
             transform.position = Vector3.Lerp(selectPos, homePos, lerp);
             if (lerp >= 1f - 0.01f && lerp <= 1f + 0.01f)
             {

@@ -16,7 +16,15 @@ public class LevelManager : MonoBehaviour
     IEnumerator LoadLevel(string name)
     {
         transition.SetTrigger("Start");
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(name);
+        yield return new WaitForSeconds(0.9f);
+        if(name == "Credits")
+        {
+            SceneManager.UnloadSceneAsync("Home");
+        }
+        else
+        {
+            SceneManager.UnloadSceneAsync("Credits");
+        }
+        SceneManager.LoadScene(name, LoadSceneMode.Additive);
     }
 }
