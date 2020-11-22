@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ObjectDestructor
+  - System
   layers:
   - Default
   - TransparentFX
@@ -38,6 +40,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background 0
+    uniqueID: 1587307997
+    locked: 0
+  - name: Background 1
+    uniqueID: 3750953823
+    locked: 0
+  - name: Background 2
+    uniqueID: 639669995
+    locked: 0
+  - name: Background 3
+    uniqueID: 1530160895
+    locked: 0
+  - name: FlavorText
+    uniqueID: 3153774341
+    locked: 0
+  - name: Line UI
+    uniqueID: 2959729609
+    locked: 0
+  - name: Target UI
+    uniqueID: 406180057
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2033295387
     locked: 0

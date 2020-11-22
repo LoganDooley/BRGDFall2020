@@ -6,12 +6,60 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Overworld/Scenes/HomeMusic.unity
+    guid: 3366ad25d6062fd45a9a43b3a6a85824
+  - enabled: 1
     path: Assets/Overworld/Scenes/Home.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Overworld/Scenes/Credits.unity
     guid: 932c7cb2c7b467e4b90d5e080279d1f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Game1/Scenes/Game1.unity
     guid: 2b8bdeefcb34efc469bab466dee1567a
+  - enabled: 1
+    path: Assets/Falling Dream/Scenes/MovementDemo.unity
+    guid: d5033e367c4a54f8ca4728d510c3f662
+  - enabled: 1
+    path: Assets/Falling Dream/Scenes/MainMenu.unity
+    guid: 42287ad6a9fdb6043a23b35123573400
+  - enabled: 1
+    path: Assets/Falling Dream/Scenes/FloatingObstacles.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Falling Dream/Scenes/EndMenu.unity
+    guid: 9fce741036af59746818a8bc74d8ab2f
+  - enabled: 1
+    path: Assets/Sheep Toss/Scenes/MainMenu.unity
+    guid: 6b0f123efef2e4b47acb28e5c6ca22a3
+  - enabled: 1
+    path: Assets/Sheep Toss/Scenes/SampleScene.unity
+    guid: 5ff6a73950d42484ca1c6dd319581fd1
+  - enabled: 1
+    path: Assets/Sheep Toss/Scenes/EndMenu.unity
+    guid: 2da4f1bda7f31b948899a3c77cac7903
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/GameOver.unity
+    guid: a55a3791d02c8614c8b2da60976acc6b
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/GregDevScene.unity
+    guid: d2daeb7d2f7bfb14792498415b5da8b4
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/ilyadevscene.unity
+    guid: 2dcf0ce1a0b31f047907e8da64e80cc6
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/IntroScene.unity
+    guid: 5b148466d9f75dc4893b5fd630f72353
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/KevinScene.unity
+    guid: fa855c2fa201844ff99842e5ac7cd700
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/MainScene.unity
+    guid: 7e5e17c8f5bb41e4a9cac2cc988158e8
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/RickyScene.unity
+    guid: 0df1f953a41a14017bfc8f75e7eba112
+  - enabled: 1
+    path: Assets/Poof the Floof/Scenes/TobyDevScene.unity
+    guid: 17f30d284220c5c44bfde3f028342cad
   m_configObjects: {}

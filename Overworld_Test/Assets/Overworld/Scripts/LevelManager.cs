@@ -13,6 +13,11 @@ public class LevelManager : MonoBehaviour
         StartCoroutine(LoadLevel(name));
     }
 
+    public void LoadMiniGame(int scene)
+    {
+        SceneManager.LoadScene(scene);
+    }
+
     IEnumerator LoadLevel(string name)
     {
         transition.SetTrigger("Start");
@@ -20,11 +25,12 @@ public class LevelManager : MonoBehaviour
         if(name == "Credits")
         {
             SceneManager.UnloadSceneAsync("Home");
+            SceneManager.LoadScene(name, LoadSceneMode.Additive);
         }
         else
         {
             SceneManager.UnloadSceneAsync("Credits");
+            SceneManager.LoadScene(name, LoadSceneMode.Additive);
         }
-        SceneManager.LoadScene(name, LoadSceneMode.Additive);
     }
 }

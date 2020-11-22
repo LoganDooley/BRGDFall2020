@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2762db8aaefc74675ac986171010736a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cldr: {instanceID: 0}
+  - sm: {instanceID: 0}
+  - Smoosh: {fileID: 21300000, guid: 8e33c328fe80646cca1f28bf7b44cbee, type: 3}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

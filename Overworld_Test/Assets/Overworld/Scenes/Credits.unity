@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 154, y: -195}
+  m_AnchoredPosition: {x: 154, y: -180}
   m_SizeDelta: {x: 631.9585, y: 317.8093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &228870226
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.97966474, g: 0.990566, b: 0.107467085, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -182,10 +182,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -203,11 +203,11 @@ MonoBehaviour:
     Angelo Jeon: Programming
 
     Irmak Cavun: Design,
-    art
+    Art
 
     Zackary Entwistle: Sound Design
 
-    Alexa Derman: Design/Art
+    Alexa Derman: Design, Art
 
     Jacob
     Migneault: Programming
@@ -256,8 +256,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152, y: -195.3}
-  m_SizeDelta: {x: 631.9585, y: 317.8093}
+  m_AnchoredPosition: {x: 42.2, y: -104.76}
+  m_SizeDelta: {x: 299.27063, y: 161.3613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334674451
 MonoBehaviour:
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.97966474, g: 0.990566, b: 0.107467085, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -281,10 +281,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -292,7 +292,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Toby Clevinger: Producer, Lead Programmer
+  m_Text: 'Toby Clevinger: Producer, Design, Lead Programmer
 
     JD Calvelli: Game/Sound
     Design
@@ -301,8 +301,10 @@ MonoBehaviour:
 
     Georgia Liu: Art
 
-    Brenda Rodriguez:
-    Art
+    Nahyun Kim: Art
+
+    Brenda
+    Rodriguez: Art
 
     Gregory Dahl: Programming
 
@@ -312,6 +314,9 @@ MonoBehaviour:
     Perry: Sound Design
 
     David Jung: BGM Composer
+
+    Ilya Bodo: Programming
+
 
 '
 --- !u!222 &334674452
@@ -349,7 +354,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -509,7 +514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152, y: -195.3}
+  m_AnchoredPosition: {x: 152, y: -180}
   m_SizeDelta: {x: 631.9585, y: 317.8093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &486248719
@@ -525,7 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.97966474, g: 0.990566, b: 0.107467085, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -534,10 +539,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -545,14 +550,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rose Van de Walle: Producer
+  m_Text: 'Rose Van de Walle: Producer, Design, Programming
 
-    Dexter McChesney:game design
+    Dexter McChesney:
+    Design
 
-    Kaija
-    Harrison: Art
+    Kaija Harrison: Art
 
     Michael Cosgrove : Programming
+
+    Ethan
+    Asis: Programming
+
+    Jacob Migneault: Programming
 
     Sadie Shipton: Art
 
@@ -560,6 +570,14 @@ MonoBehaviour:
     Wang: Art
 
     Kevin K. Ho: Art, Design
+
+    Kelly Wang: Sheep Design
+
+    David
+    Hong: Composer
+
+    JD Calvelli: Sound Design
+
 
 
 '
@@ -799,8 +817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -547, y: 379}
-  m_SizeDelta: {x: 323.41724, y: 56.82965}
+  m_AnchoredPosition: {x: -214.79, y: 189}
+  m_SizeDelta: {x: 211.8392, y: 34.434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1080862955
 MonoBehaviour:
@@ -815,7 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.97287667, b: 0.4198113, a: 1}
+  m_Color: {r: 0.97647065, g: 0.80392164, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -824,11 +842,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1006,8 +1024,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 328, y: -33}
-  m_SizeDelta: {x: 323.41724, y: 56.82965}
+  m_AnchoredPosition: {x: 234, y: -21.401}
+  m_SizeDelta: {x: 323.41724, y: 33.63185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1441935488
 MonoBehaviour:
@@ -1022,7 +1040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.97287667, b: 0.4198113, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1031,7 +1049,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1121,7 +1139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return to Home
+  m_Text: 
 --- !u!222 &1506710835
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1236,8 +1254,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152, y: -192}
-  m_SizeDelta: {x: 631.9585, y: 317.8093}
+  m_AnchoredPosition: {x: -1.1353, y: -158}
+  m_SizeDelta: {x: 325.68793, y: 275.50644}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1586989188
 MonoBehaviour:
@@ -1252,7 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.97966474, g: 0.990566, b: 0.107467085, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1261,10 +1279,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1276,12 +1294,12 @@ MonoBehaviour:
 
     Logan Dooley: Programming
 
-    Dani Smith: UI
+    Dani Smith: Overworld
+    UI
 
-    Marijke
-    Perry: Sound Design (SFX)
+    JD Calvelli: Lead Producer, Sound Design
 
-    JD Calvelli: Sound Design (Main Menu Theme)
+    Heidi Erwin: Logistics
 
 
 '
@@ -1327,8 +1345,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00079346, y: 0.00079346}
-  m_SizeDelta: {x: 1766.0017, y: 1138.3136}
+  m_AnchoredPosition: {x: 1.15, y: 0.2}
+  m_SizeDelta: {x: 817.99426, y: 537.4349}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1716859278
 MonoBehaviour:
@@ -1467,6 +1485,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeTransition
       objectReference: {fileID: 0}
+    - target: {fileID: 2625689836945831156, guid: 374d696a30f9cb747ba14b00b1191a6a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625689836945831156, guid: 374d696a30f9cb747ba14b00b1191a6a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625689836945831156, guid: 374d696a30f9cb747ba14b00b1191a6a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2478.4036
+      objectReference: {fileID: 0}
+    - target: {fileID: 2625689836945831156, guid: 374d696a30f9cb747ba14b00b1191a6a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1243.1489
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 374d696a30f9cb747ba14b00b1191a6a, type: 3}
 --- !u!95 &1745783674 stripped
@@ -1510,8 +1544,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 716.3, y: -318}
-  m_SizeDelta: {x: 84.38895, y: 76.34207}
+  m_AnchoredPosition: {x: 333, y: -155}
+  m_SizeDelta: {x: 44.57431, y: 48.123352}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767460922
 MonoBehaviour:
@@ -1644,8 +1678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: 418}
-  m_SizeDelta: {x: 226.2149, y: 92.536194}
+  m_AnchoredPosition: {x: -9, y: 191.6}
+  m_SizeDelta: {x: 111.77838, y: 27.326149}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771266726
 MonoBehaviour:
@@ -1722,8 +1756,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5d7840f56bb32ac4ba7abb560947149d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1848,7 +1882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1941,8 +1975,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -549, y: -45}
-  m_SizeDelta: {x: 323.41724, y: 56.82965}
+  m_AnchoredPosition: {x: -161, y: -21}
+  m_SizeDelta: {x: 323.41724, y: 34.43405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1947535641
 MonoBehaviour:
@@ -1957,7 +1991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.97287667, b: 0.4198113, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1966,7 +2000,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2020,7 +2054,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 457, y: -345}
+  m_AnchoredPosition: {x: 310, y: -186}
   m_SizeDelta: {x: 362.2185, y: 73.90466}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948835238
@@ -2036,7 +2070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.97966474, g: 0.990566, b: 0.107467085, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2045,10 +2079,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -2106,8 +2140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 343, y: 379}
-  m_SizeDelta: {x: 323.41724, y: 56.82965}
+  m_AnchoredPosition: {x: 236, y: 190}
+  m_SizeDelta: {x: 323.41724, y: 36.922325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1964701950
 MonoBehaviour:
@@ -2122,7 +2156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.97287667, b: 0.4198113, a: 1}
+  m_Color: {r: 0.9764706, g: 0.8039216, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2131,7 +2165,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
