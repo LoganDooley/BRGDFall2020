@@ -7,10 +7,15 @@ using UnityEngine.SceneManagement;
 public class ButtonController : MonoBehaviour
 {
 
-    public string sceneName;
+    public string sceneName = null;
+    public int sceneId;
 
     public void TransitionToScene() {
-        SceneManager.LoadScene(sceneName);
+        if (sceneName == null || sceneName == "") {
+            SceneManager.LoadScene(sceneId);
+        } else {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
 }

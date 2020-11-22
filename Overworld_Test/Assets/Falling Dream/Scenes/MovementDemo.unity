@@ -152,7 +152,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.9
   m_Range: 446.1
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1729,7 +1729,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.75
   m_Range: 79.19943
   m_SpotAngle: 131
   m_InnerSpotAngle: 21.80208
@@ -2222,8 +2222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 10
   MaxDisplacement: 10
-  LeanFactor: 0.25
-  MaxLeanDeg: 15
+  LeanFactor: 0.15
+  MaxLeanDeg: 10
 --- !u!114 &1372202886
 MonoBehaviour:
   m_ObjectHideFlags: 0
