@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e906cadd044f25f40bb1b3f71c90d6f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MainMenu
+  sceneName: HomeMusic
 --- !u!114 &1097174387
 MonoBehaviour:
   m_ObjectHideFlags: 0
