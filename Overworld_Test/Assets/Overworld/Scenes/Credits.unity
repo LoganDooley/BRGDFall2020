@@ -202,15 +202,15 @@ MonoBehaviour:
 
     Angelo Jeon: Programming
 
-    Irmak Cavun: Design,
-    Art
+    Irmak Cavun: Design, Art
 
-    Zackary Entwistle: Sound Design
+    Zackary
+    Entwistle: Sound Design
 
     Alexa Derman: Design, Art
 
-    Jacob
-    Migneault: Programming
+    Jacob Migneault:
+    Programming
 
 
 '
@@ -256,8 +256,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.2, y: -104.76}
-  m_SizeDelta: {x: 299.27063, y: 161.3613}
+  m_AnchoredPosition: {x: 42.2, y: -169.1}
+  m_SizeDelta: {x: 299.27063, y: 290.08362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334674451
 MonoBehaviour:
@@ -817,7 +817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.79, y: 189}
+  m_AnchoredPosition: {x: -213, y: 189}
   m_SizeDelta: {x: 211.8392, y: 34.434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1080862955
@@ -1024,7 +1024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 234, y: -21.401}
+  m_AnchoredPosition: {x: 234, y: -43}
   m_SizeDelta: {x: 323.41724, y: 33.63185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1441935488
@@ -1975,7 +1975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -161, y: -21}
+  m_AnchoredPosition: {x: -159, y: -43}
   m_SizeDelta: {x: 323.41724, y: 34.43405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1947535641
@@ -2079,7 +2079,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 15
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
