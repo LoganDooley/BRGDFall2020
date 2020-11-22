@@ -12,7 +12,7 @@ public class MouseOver : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public AudioSource buttonDepress;
     public void OnMouseOver()
     {
-        myButton.GetComponent<RectTransform>().localScale = new Vector3(1.2f, 1.2f, 1f); 
+        myButton.GetComponent<RectTransform>().localScale = new Vector3(1.1f, 1.1f, 1f); 
     }
     public void OnMouseExit()
     {
